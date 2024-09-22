@@ -1,3 +1,2 @@
 HTML(HyperText Markup Language)은 웹 페이지를 구성하는 기본적인 언어로, 내가 웹 개발을 시작할 때 처음으로 배운 것이었다. HTML은 웹 페이지를 구조화하기 위해 다양한 태그를 사용하며, html, head, body 등의 태그를 통해 문서의 기본 구조를 잡는 방법을 배웠다. 이 과정에서 h1에서 h6까지의 제목 태그, p 태그로 문단을 나누는 법,a 태그로 링크를 생성하는 법 등을 익혔다. 또한, 이미지 삽입을 위한 <img> 태그도배우게 되었다. 이런 것들을 배움으로써 HTML을 통해 웹 페이지의 구조를 잡는 것이 얼마나 중요한지 알게 되었고, CSS와 JavaScript와의 결합으로 더 나은 웹 페이지를 만드는 기초를 다질 수 있었다.또한 추석 주에는 휴강을 한다고 하셨는데 그 동안 js에 대해서 잘 배워갈 예정이다.
-
-<p><a href = "(https://sprightly-cactus-b1d666.netlify.app )">과제 업로드 링크</a></p>
+<a href = "(https://sprightly-cactus-b1d666.netlify.app )">과제 업로드 링크</a>
