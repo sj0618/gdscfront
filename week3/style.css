@@ -1,0 +1,82 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #fff8f0;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 32px;
+    color: #d7263d;
+    font-size: 2.5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+}
+
+.lineup {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(215,38,61,0.08);
+    padding: 32px 24px;
+}
+
+.lineup h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 24px;
+    font-size: 2rem;
+}
+
+.day {
+    margin-bottom: 32px;
+}
+
+.day h3 {
+    color: #d7263d;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+.day ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.day li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffe3e3;
+    border-radius: 12px;
+    padding: 16px 12px;
+    min-width: 110px;
+    box-shadow: 0 2px 8px rgba(215,38,61,0.06);
+}
+
+.artist-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border: 2px solid #d7263d;
+    background: #fff;
+}
+
+.day li span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #222;
+} 
