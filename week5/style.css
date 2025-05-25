@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #root {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* 완료된 할 일에 적용될 스타일 */
+  .todo-item.completed {
+    text-decoration: line-through; /* 핵심: 취소선 */
+    color: #888; /* 색상을 회색으로 변경 */
+    font-style: italic; /* 이탤릭체로 변경 (선택 사항) */
+  }
+  button:hover {
+    background-color: #218838; /* 예시: 배경색을 더 어둡게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+}
+
+/* 버튼이 클릭되었을 때 (active) - 선택 사항이지만 hover와 함께 많이 사용됨 */
+button:active {
+    background-color: #1a6f2c; /* 예시: 클릭 시 더 진한 색상 */
+    transform: translateY(1px); /* 살짝 눌리는 효과 */
+}
+
+/* 버튼이 활성화되어 포커스되었을 때 (focus) */
+button:focus {
+    outline: 2px solid #0056b3; /* 예시: 파란색 테두리 아웃라인 */
+    outline-offset: 2px; /* 아웃라인 간격 */
+}
+
+/* 버튼이 비활성화되었을 때 (disabled) */
+button:disabled {
+    background-color: #cccccc; /* 회색 배경 */
+    color: #666666; /* 어두운 글자색 */
+    cursor: not-allowed; /* 마우스 커서 변경 */
+    opacity: 0.7; /* 투명도 */
+}
+.todo-item:not(.completed) {
+    font-weight: bold; /* 폰트 굵게 */
+    color: #333; /* 글자색 진하게 유지 */
+    background-color: #e6f7ff; /* 연한 파란색 배경 */
+    border-left: 5px solid #007bff; /* 왼쪽에 파란색 테두리 */
+    padding-left: 15px; /* 왼쪽 테두리 때문에 패딩 추가 */
+}
+
+/* 마우스를 올렸을 때 (선택 사항) */
+.todo-item:not(.completed):hover {
+    background-color: #d1efff; /* 호버 시 배경색 더 진하게 */
+    cursor: pointer; /* 클릭 가능한 것처럼 커서 변경 */
+}

@@ -11,7 +11,7 @@ live서버로 임시 로컬 서버를 돌릴 수 있다.
 예시)
 <!DOCTYPE html>     #html 을 쓰겠다.
 <html>              #내용
-<head>              #브라우저가 사용하는 정보
+<head>              #브라우저가  사용하는 정보
  <title>Hello</title>
 </head>
 <body>              #body = 본문
