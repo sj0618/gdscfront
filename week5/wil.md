@@ -15,3 +15,6 @@ then으로 비동기 처리가 가능함 .
  button.setAttribute("disabled", true);
 ## 배포하는 방법.
 니가알아서 잘해!!!.  
+
+* 배포링크 *
+https://gdscfront-68a7r6b48-seojuns-projects-671b3866.vercel.app/ 
